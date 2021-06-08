@@ -1,0 +1,9 @@
+image: alpine
+
+pages:
+    script:
+        - mv src public
+    artifacts:
+        paths:
+            - public
+        expire_in: 1 days
